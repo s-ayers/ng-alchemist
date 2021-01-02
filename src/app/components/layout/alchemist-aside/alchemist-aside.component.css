@@ -1,0 +1,239 @@
+aside {
+    height: 580px;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #3b5998;
+    text-align: center;
+}
+
+
+@media (min-width: 992px) {
+    aside {
+        width: 25%;
+    }
+}
+
+/*--------------------------------------------------
+------------------- porfil-widget --------------------
+---------------------------------------------------*/
+
+aside {
+    height: 580px;
+    float: right;
+    background: #3b5998;
+}
+
+aside .circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+}
+
+aside .circle-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    background-image: url('http://placehold.it/150x150');
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+aside h1 {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 400;
+    color: #839ccf;
+}
+
+aside h4 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+aside h6 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+aside p {
+    border-left: 0px;
+}
+
+aside #profile_desc blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+aside #profile_info {
+    padding-bottom: 15px;
+}
+
+aside #profile_social {
+    padding-top: 15px;
+}
+
+#profile_social a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 0px 0px 5px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    display: block;
+    color: #fff;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#profile_social a:hover {
+    background-color: #fff;
+}
+
+aside .image-holder {
+    position: relative;
+    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+}
+
+aside .head-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+}
+
+aside .head-image {
+    z-index: 0;
+}
+
+aside .front {
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1200px) {
+    aside #profile_social a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 24px;
+    }
+    aside h1 {
+        font-size: 25px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    aside #profile_social a {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 20px;
+    }
+    aside h1 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    aside h1 {
+        font-size: 25px !important;
+        line-height: 39px !important;
+    }
+    aside h4 {
+        font-size: 13px !important;
+    }
+    aside {
+        height: 265px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    aside {
+        height: 285px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display: none;
+    }
+    aside h1 {
+        font-size: 22px !important;
+        line-height: 39px !important;
+    }
+    aside h4 {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (min-width: 766px) and (max-width: 800px) {
+    aside {
+        height: 210px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 991px) {
+    #profile .cycle-slideshow {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 991px) {
+    aside {
+        height: 210px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        border-bottom: 0 !important;
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "alchemistng",
+    "version": "11.1.0-SNAPSHOT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/s-ayers/alchemistng"
+    },
+    "keywords": [
+      "angular"
+    ],
+    "license": "GPL3",
+    "bugs": {
+      "url": "https://github.com/s-ayers/alchemistng/issues"
+    },
+    "module": "alchemistng.js",
+    "typings": "alchemistng.d.ts",
+    "peerDependencies": {
+      "@angular/core": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0",
+      "@angular/common": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0",
+      "@angular/forms": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0",
+      "rxjs": "^6.0.0",
+      "zone.js": "^0.10.2"
+    }
+  }
