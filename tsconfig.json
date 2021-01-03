@@ -19,7 +19,7 @@
           "dom"
       ],
       "paths": {
-          "alchemistng/*": ["src/app/components/*/public_api"]
+          "alchemist-ng/*": ["src/app/components/*/public_api"]
       }
    }
   }

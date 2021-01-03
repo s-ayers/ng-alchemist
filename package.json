@@ -1,6 +1,6 @@
 {
-  "name": "alchemistng",
-  "version": "0.0.0",
+  "name": "@s-ayers/alchemist-ng",
+  "version": "0.0.2",
   "license": "GPL3",
   "scripts": {
     "ng": "ng",
@@ -13,7 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/s-ayers/alchemistng.git"
+    "url": "https://github.com/s-ayers/alchemist-ng.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@s-ayers"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.1",

@@ -8,13 +8,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 // import { ButtonModule } from 'primeng/button';
-// import {DialogModule} from 'alchemistng/dialog';
+// import {DialogModule} from 'alchemist-ng/dialog';
 
-// import { LayoutModule } from alchemistng/layout;
+// import { LayoutModule } from alchemist-ng/layout;
 
-import {AlchemistCoreModule} from 'alchemistng/core';
+import {AlchemistCoreModule} from 'alchemist-ng/core';
 import { AsideComponent } from './components/aside/aside.component';
-import { LayoutModule } from 'alchemistng/layout';
+import { LayoutModule } from 'alchemist-ng/layout';
 
 // import { TooltipModule } from 'primeng/tooltip';
 // import { RadioButtonModule } from 'primeng/radiobutton';

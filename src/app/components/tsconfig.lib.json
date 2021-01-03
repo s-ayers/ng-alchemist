@@ -17,7 +17,7 @@
       "skipLibCheck": true,
       "types": [],
       "paths": {
-        "alchemistng/*": ["src/app/components/*/public_api"]
+        "alchemist-ng/*": ["src/app/components/*/public_api"]
       }
     },
     "angularCompilerOptions": {
@@ -25,8 +25,8 @@
       "annotateForClosureCompiler": false,
       "strictMetadataEmit": true,
       "skipTemplateCodegen": true,
-      "flatModuleOutFile": "alchemistng.js",
-      "flatModuleId": "alchemistng"
+      "flatModuleOutFile": "alchemist-ng.js",
+      "flatModuleId": "alchemist-ng"
     },
     "files": [
       "./public_api.ts"
